@@ -1,0 +1,9 @@
+--Foundation Statistic and Analyis - Moudule 2 --
+import pandas as pd
+weather=pd.read_csv('3717825.csv', index_col="DATE")
+weather
+weather.head()
+weather.shape[0]
+weather.info()
+weather.describe()
+weather.corr
